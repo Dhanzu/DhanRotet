@@ -1,6 +1,6 @@
 bot_raw = {}
 
-bot_raw["dhanbolaa8"] = {
+bot_raw[""] = {
   
 --=======SETUP=======--
 webhooks = {
@@ -9,7 +9,7 @@ webhooks = {
 },
 -----------------------
 bot_config = {
-  ["World"] = {"CZPGO","DEEQB","DEEQG","DEEQH","DEEQD","DEEQJ","DEEQV","RWGZC","RWGZF","RWGZA","RWGZD","RWGZE"},
+  ["World"] = {""},
   ["Door"] = "ApacokKontol",
   ["Loop"] = true,
   ["Save_Mode"] = 1,
