@@ -10,13 +10,13 @@ webhooks = {
 -----------------------
 bot_config = {
   ["World"] = {"CZPGO","DEEQB","DEEQG","DEEQH","DEEQD","DEEQJ","DEEQV","RWGZC","RWGZF","RWGZA","RWGZD","RWGZE"},
-  ["Door"] = "D666",
+  ["Door"] = "ApacokKontol",
   ["Loop"] = true,
   ["Save_Mode"] = 1,
   ["Save"] = {
               {
-                ["World"] = "DHANSAVEBARU00",
-                ["Door"] = "D666",       --Mode 1
+                ["World"] = "Peju Lu Garing",
+                ["Door"] = "ppppp",       --Mode 1
                 ["Path_Seed"] = 16,
                 ["Path_Pack"] = 20
               },
@@ -46,8 +46,8 @@ event = {
   ["Item_Event"] = {1058,1094,1096,1098,3870,7058},
   ["Limit"] = 100,
   ["World"] = {
-                ["World"] = "DHANSAVEBARU00",
-                ["Door"] = "D666",
+                ["World"] = "Mandul Lu Kontol",
+                ["Door"] = "ppppppp",
                 ["Path"] = 20
               }
 },
