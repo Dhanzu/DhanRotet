@@ -48,7 +48,7 @@ event = {
   ["World"] = {
                 ["World"] = "EVENT SAVE",
                 ["Door"] = "ID EVENT SAVE",
-                ["Path"] = "POS EVENT SAVE"
+                ["Path"] = 20
               }
 },
 ------------------------
