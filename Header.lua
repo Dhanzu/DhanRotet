@@ -1,6 +1,7 @@
 bot_raw = {}
 
 bot_raw["BOTNAME1"] = {
+  
 --=======SETUP=======--
 webhooks = {
   ["LINK"]  = '',
@@ -9,7 +10,7 @@ webhooks = {
 -----------------------
 bot_config = {
   ["World"] = {"FARM1"},
-  ["Door"] = 'FARM_ID',
+  ["Door"] = "FARM_ID",
   ["Loop"] = true,
   ["Save_Mode"] = 1,
   ["Save"] = {
@@ -41,9 +42,14 @@ bot_mode = {
 ------------------------
 event = {
   ["Anti_Toxic_Waste"] = true,
-  ["Event"] = true,
+  ["Event"] = false,
   ["Item_Event"] = {},
-  ["Limit"] = 100
+  ["Limit"] = 100,
+  ["World"] = {
+                ["World"] = "EVENT SAVE",
+                ["Door"] = "ID EVENT SAVE",
+                ["Path"] = "POS EVENT SAVE"
+              }
 },
 ------------------------
 bot_environment = {
@@ -63,7 +69,10 @@ bot_environment = {
                         ["Break"]   = true
                        }
             },
-  ["Jammer"] = true,
+  ["Jammer"] = {
+                ["Mode"] = true,
+                ["Coordinate"] = {15,1} --RGT Coordinate
+                },
   ["Ban"] = {
             ["Mode"] = true,
             ["Ignore"] = {"Ignored_Name"}
